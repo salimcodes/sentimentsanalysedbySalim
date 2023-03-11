@@ -18,19 +18,19 @@ Thereafter, create a virtual environment named `mypython`.
 
 ```
 # Windows
-python -m venv mypython
+python -m venv myypython
 
 # macOS or Linux
-python -m venv mypython
+python -m venv myypython
 ```
 
 Activate the created virtual environment
 ```
 # Windows
-mypython\Scripts\activate
+myypython\Scripts\activate
 
 #macOS or Linux
-source ./mypython/bin/activate
+source ./myypython/bin/activate
 ```
 
 Then install the necessary dependencies needed.
