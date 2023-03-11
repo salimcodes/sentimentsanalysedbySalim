@@ -45,28 +45,4 @@ def sentiment_analysis_with_opinion_mining_example(client):
             document.confidence_scores.neutral,
             document.confidence_scores.negative,
         ))
-        for sentence in document.sentences:
-            print("Sentence: {}".format(sentence.text))
-            print("Sentence sentiment: {}".format(sentence.sentiment))
-            print("Sentence score:\nPositive={0:.2f}\nNeutral={1:.2f}\nNegative={2:.2f}\n".format(
-                sentence.confidence_scores.positive,
-                sentence.confidence_scores.neutral,
-                sentence.confidence_scores.negative,
-            ))
-            for mined_opinion in sentence.mined_opinions:
-                target = mined_opinion.target
-                print("......'{}' target '{}'".format(target.sentiment, target.text))
-                print("......Target score:\n......Positive={0:.2f}\n......Negative={1:.2f}\n".format(
-                    target.confidence_scores.positive,
-                    target.confidence_scores.negative,
-                ))
-                for assessment in mined_opinion.assessments:
-                    print("......'{}' assessment '{}'".format(assessment.sentiment, assessment.text))
-                    print("......Assessment score:\n......Positive={0:.2f}\n......Negative={1:.2f}\n".format(
-                        assessment.confidence_scores.positive,
-                        assessment.confidence_scores.negative,
-                    ))
-            print("\n")
-        print("\n")
-          
 sentiment_analysis_with_opinion_mining_example(client)
