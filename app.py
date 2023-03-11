@@ -1,9 +1,5 @@
 # This example requires environment variables named "LANGUAGE_KEY" and "LANGUAGE_ENDPOINT"
 import os
-#language_key = os.environ.get('LANGUAGE_KEY')
-#language_endpoint = os.environ.get('LANGUAGE_ENDPOINT')
-#language_key = "5c2af3356ca74a55971ee3e2f070a73d"
-#language_endpoint = "https://sentimentalanalysisbysalim.cognitiveservices.azure.com"
 from azure.ai.textanalytics import TextAnalyticsClient
 from azure.core.credentials import AzureKeyCredential
 from dotenv import load_dotenv
