@@ -9,8 +9,8 @@ Using the terminal;
 Clone the repository
 
 ```
-git clone https://github.com/salimcodes/translatedbysalim.git
-cd translatedbysalim
+git clone https://github.com/salimcodes/sentimentalAnalysisBySalim.git
+cd sentimentalAnalysisBySalim
 ```
 
 
