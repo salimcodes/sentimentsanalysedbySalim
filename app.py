@@ -21,9 +21,12 @@ client = authenticate_client()
 # Example method for detecting sentiment and opinions in text 
 def sentiment_analysis_with_opinion_mining_example(client):
 
-    documents = [
-        "The food and service were unacceptable. The concierge was nice, however."
-    ]
+    #documents = [
+    #    "Manchester United is the best club in the world"
+    #]
+
+    documents = input("Enter your review: ")
+    documents = [documents]
 
     result = client.analyze_sentiment(documents, show_opinion_mining=True)
     doc_result = [doc for doc in result if not doc.is_error]
