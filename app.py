@@ -9,8 +9,8 @@ from azure.core.credentials import AzureKeyCredential
 from dotenv import load_dotenv
 load_dotenv()
 
-language_key = os.environ["LANGUAGE_KEY"]
-language_endpoint = os.environ['LANGUAGE_ENDPOINT']
+language_key = os.getenv("LANGUAGE_KEY")
+language_endpoint = os.getenv("LANGUAGE_ENDPOINT")
 
 # Authenticate the client using your key and endpoint 
 def authenticate_client():
