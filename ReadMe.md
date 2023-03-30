@@ -1,4 +1,4 @@
-# sentimentsanalysedbySalim
+# sentiments-analysed-by-Salim
 
 
 ## Description
