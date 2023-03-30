@@ -24,7 +24,7 @@ We welcome any and all contributions! Here are some ways you can get started:
 
 ## How to Install and Run the Project Locally
 
-You will find the url for the deployed version of the app on the right-hand pane.
+You will find the [url](https://sentimentsanalysedbysalim.azurewebsites.net/) for the deployed version of the app on the right-hand pane.
 
 ### Testing Flask App locally
 
