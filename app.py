@@ -8,6 +8,7 @@ from flask import Flask, redirect, url_for, request, render_template, session
 
 app = Flask(__name__)
 
+
 language_key = os.getenv("LANGUAGE_KEY")
 language_endpoint = os.getenv("LANGUAGE_ENDPOINT")
 def authenticate_client():
