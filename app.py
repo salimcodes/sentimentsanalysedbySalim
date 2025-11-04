@@ -30,7 +30,6 @@ def index_post():
     original_text = request.form['text']
     documents = [original_text]
 
-
     result = client.analyze_sentiment(documents, show_opinion_mining=True)
     doc_result = [doc for doc in result if not doc.is_error]
 
